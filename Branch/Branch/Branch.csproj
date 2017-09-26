@@ -117,14 +117,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <None Include="scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="scripts\jquery-1.10.2.js" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\B1\B1AreaRegistration.cs" />
+    <Compile Include="Areas\B1\Controllers\DefaultController.cs" />
     <Compile Include="Areas\B2\B2AreaRegistration.cs" />
     <Compile Include="Areas\B3\B3AreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -141,6 +152,13 @@
     <Content Include="Areas\B1\Views\web.config" />
     <Content Include="Areas\B2\Views\web.config" />
     <Content Include="Areas\B3\Views\web.config" />
+    <Content Include="Areas\B1\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\B1\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\B1\Views\Default\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -150,9 +168,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\B1\Controllers\" />
     <Folder Include="Areas\B1\Models\" />
-    <Folder Include="Areas\B1\Views\Shared\" />
     <Folder Include="Areas\B2\Controllers\" />
     <Folder Include="Areas\B2\Models\" />
     <Folder Include="Areas\B2\Views\Shared\" />
