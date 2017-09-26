@@ -11,7 +11,8 @@ namespace Branch.Areas.B1.Controllers
         // GET: B1/Default
         public ActionResult Index()
         {
-            return View();
+            int a = 0;
+            return View(a);
         }
     }
 }
