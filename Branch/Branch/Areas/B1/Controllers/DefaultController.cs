@@ -11,7 +11,13 @@ namespace Branch.Areas.B1.Controllers
         // GET: B1/Default
         public ActionResult Index()
         {
-            return View();
+            List<int> gg = new List<int>();
+            gg.Add(1);
+            gg.Add(1);
+            gg.Add(1);
+            gg.Add(1);
+            gg.Add(1);
+            return View(gg);
         }
     }
 }
